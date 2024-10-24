@@ -1,0 +1,192 @@
+/***** BASE STYLES *****/
+body{
+    color: #2b2b2b;
+    font-family: 'Comfortaa', cursive;   
+}
+/***** Grid ******/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width{
+    float: left;
+    width: 600px;  
+}
+
+.third-width{
+    float: left;
+    text-align: center;
+    width: 400px;
+}
+.fourth-width{
+    float: left;
+    width: 300px;
+}
+/****** Header *******/
+header{
+    background: url(../img/full-background.png);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+header h1{
+    color: #312027;
+    font-family:'Special Elite', cursive;
+    font-size: 40px;
+    padding: 50px 0 65px 25px;
+}
+    
+/******* Header Nav *********/
+nav {
+    float: left; 
+    padding: 75px 25px;
+    font-family: 'Special Elite', cursive;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #302223;
+    font-size: 18px;
+    padding-left: 20px; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/******* Important Statement **********/
+header h2 {
+    clear: both;
+    color: #eef2f6;
+    font-family: 'Comfortaa', cursive;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0 20px 25px;
+    width: 1000px;
+}
+
+header h2 span {
+    color: #1a181b;
+}
+
+header h3 {
+    font-family: 'Special Elite', cursive;
+    font-size: 36px;
+    line-height: 44px;
+    clear: both;
+    text-align: center;
+    color: #ffffff;
+}
+
+/****** About-Main Section *******/
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 36px;
+    padding-left: 50px;
+}
+ 
+#about p {
+    color: #7f7f7f;
+    font-size: 21px;
+    line-height:40px;
+    padding: 0px 40px;
+}
+
+/****** Work **********/
+#work{
+    background-color: #cddae5;
+}
+
+#work .full-width{
+    padding: 115px 0px;
+}
+
+#work img{
+    padding-bottom: 30px; 
+}
+
+#work h3{
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+#work p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+    text-align: center;  
+}
+
+/****** Contact-Footer ***********/
+#contact{
+    background-color: #edf1f8;
+}
+
+#contact .full-width{
+    padding: 110px 0;
+}
+
+#contact #contact-img{
+    border: 12px solid #ffffff;
+    margin-left: 25px;
+}
+
+#contact h2, #email-header, #socialmedia-header, ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 36px;
+    line-height: 44px
+}
+
+#contact #email-header{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: 30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    color:#2b2b2b;
+    font-weight: 800;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/******* Social Media Ul ***********/
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
+/*****Portfolio Page*****/
